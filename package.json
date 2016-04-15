@@ -1,0 +1,28 @@
+{
+  "name": "dollar-inject",
+  "version": "1.0.0",
+  "description": "Sets the arguments passed into dollarInject() as $inject on the method",
+  "keywords": [
+    "angular",
+    "$inject",
+    "inject"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^6.0.8"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/dollar-inject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/dollar-inject/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/dollar-inject#readme"
+}
