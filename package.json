@@ -5,7 +5,8 @@
   "keywords": [
     "angular",
     "$inject",
-    "inject"
+    "inject",
+    "annotate"
   ],
   "main": "index.js",
   "scripts": {

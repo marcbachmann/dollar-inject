@@ -11,8 +11,8 @@ sessionController = $inject 'session', '$http',
 basically does
 
 ```
-function foo (session) {}
-foo.$inject = ['session']
+function sessionController (session, $http) {}
+sessionController.$inject = ['session', '$http']
 ```
 
 
