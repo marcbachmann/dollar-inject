@@ -1,7 +1,10 @@
 module.exports = dollarInject
 
 function dollarInject () {
-  var method = [].splice.call(arguments, -1)[0]
-  method.$inject = arguments
+  var args = []
+  for (var i = 0; i < arguments.length; i++) args[i] = arguments[i]
+
+  var method = args.splice(-1)[0]
+  method.$inject = args
   return method
 }
