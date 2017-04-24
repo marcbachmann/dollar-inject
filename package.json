@@ -1,6 +1,6 @@
 {
   "name": "dollar-inject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sets the arguments passed into dollarInject() as $inject on the method",
   "keywords": [
     "angular",
